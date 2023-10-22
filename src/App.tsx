@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[var(--Light-Grayish-Blue)] flex justify-center items-center">
-      <div className="main w-[320px] md:w-auto md:flex bg-[white] rounded-xl shadow-lg">
+      <div className="main w-[320px] md:w-auto md:h-[291px] md:flex bg-[white] rounded-xl shadow-lg">
         <div className="image">
           <img
             src="./images/drawers.jpg"
@@ -16,7 +16,7 @@ function App() {
             className="md:w-[297px] md:h-[291px] md:object-cover md:object-left rounded-t-xl md:rounded-r-none md:rounded-l-xl"
           />
         </div>
-        <div className="contentBlock md:w-[410px]">
+        <div className="contentBlock md:w-[410px] md:flex flex-col justify-between">
           <div className="detail p-8 pb-6 md:pb-0">
             <h1 className="font-bold text-[var(--Very-Dark-Grayish-Blue)] md:text-[1.2em]">
               Shift the overall look and feel by adding these wonderful touches
